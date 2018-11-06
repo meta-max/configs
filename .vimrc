@@ -16,6 +16,25 @@ let mapleader =","
 	set encoding=utf-8
 	set number
 	set relativenumber
+        set autoread
+        set fileencoding=utf-8
+        set foldlevelstart=0
+        set foldmethod=marker
+        set ignorecase
+        set incsearch
+        set smartcase
+        set nobackup
+        set noswapfile
+        set nowritebackup
+        set gdefault
+        set iskeyword-=_
+        set lazyredraw
+        set matchpairs+=<:>
+        set wildmenu
+        set wildmode=list:longest
+
+        let g:netrw_localrmdir='rm -r'
+        let g:netrw_banner=0
 
 " Tabs
 	set tabstop=8
