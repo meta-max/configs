@@ -1,1 +1,1 @@
-DOTFILES FOR LINUX RICE
+config files
